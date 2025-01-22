@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+}
+.summary {
+    margin-top: 20px;
+}
+.summary p {
+    text-align: right;
+}
+.breadcrumbs {
+    margin-top: 20px;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}

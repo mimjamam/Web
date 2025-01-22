@@ -1,0 +1,119 @@
+/* Profile Container Styling */
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+}
+
+/* Profile Details */
+.profile-details {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.profile-details strong {
+    color: #4CAF50;
+}
+
+/* Buttons for Modify and Remove */
+.profile-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.modify-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    transition: all 0.3s ease;
+}
+
+.modify-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+    border: 1px solid #f44336;
+    transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: white;
+    color: #f44336;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image img {
+        margin-bottom: 20px;
+    }
+}
+.breadcrumbs {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}

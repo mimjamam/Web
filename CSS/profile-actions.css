@@ -1,0 +1,134 @@
+/* General Container Styles */
+.modify-container, .remove-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.modify-container h2, .remove-container h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="file"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Modify Button */
+.modify-item {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #4CAF50;
+}
+
+.modify-item:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Remove Button */
+.remove-item {
+    background-color: #f44336; /* Red */
+    border: 1px solid #f44336;
+}
+
+.remove-item:hover {
+    background-color: white;
+    color: #f44336;
+}
+.add-to-special{
+    background-color: #68afe9; /* Blue */
+    border: 1px solid #409dea;
+}
+.add-to-special{
+    background-color: #68afe9; /* Blue */
+    border: 1px solid #409dea;
+}
+/* Add to Cart Button */
+.add-to-cart {
+    background-color: #2196F3; /* Blue */
+    border: 1px solid #2196F3;
+}
+
+.add-to-cart:hover {
+    background-color: white;
+    color: #2196F3;
+}
+/* Success Popup */
+.success-popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+.success-popup p {
+    margin: 0;
+    font-weight: bold;
+}

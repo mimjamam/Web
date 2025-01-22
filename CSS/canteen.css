@@ -1,0 +1,95 @@
+/* Canteens Section */
+#canteens-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#canteens-content h2 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#canteens-content p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Individual Canteen Boxes */
+.canteen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.canteen:nth-child(odd) {
+    flex-direction: row-reverse; /* Alternate image alignment */
+}
+
+/* Canteen Details */
+.canteen-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.canteen-details h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.canteen-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.canteen-details ul {
+    list-style: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.canteen-details ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Canteen Image */
+.canteen img.canteen-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .canteen {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .canteen img.canteen-image {
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .canteen-details {
+        padding: 0;
+    }
+}
